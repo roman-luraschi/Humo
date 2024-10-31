@@ -1,0 +1,26 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que la navbar esté por encima de otros elementos */
+  background-color: #fff; /* Asegura que la navbar tenga un fondo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 60px;
+    margin-left: 20px;
+    width: 80px;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #f828ff !important;
+}
+
+.elements {
+    margin-right: 20px;
+}

@@ -1,0 +1,29 @@
+.gallery {
+    background: transparent;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    padding: 0 10px; /* Añade padding horizontal */
+}
+
+.slick-slide {
+    padding: 10px 10px; /* Añade padding horizontal a cada slide */
+}
+
+.slick-dots li button:before {
+    color: hsl(290, 100%, 83%);
+}
+
+.slick-dots li.slick-active button:before {
+    color: hsl(290, 100%, 83%);
+}

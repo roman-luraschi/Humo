@@ -1,0 +1,43 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb); 
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .button-row {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .instagram-button, .youtube-button, .cafecito-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .instagram-button , .youtube-button, .icon, .cafecito-button {
+    margin-right: 8px;
+  }
+  
+  .instagram-button:hover, .youtube-button:hover, .cafecito-button:hover {
+    background: white;
+    color: #ff30c4;
+  }

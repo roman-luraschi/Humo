@@ -1,0 +1,22 @@
+.banner{
+  margin-top: 80px;
+}
+
+.custom-background-color {
+    background-color: #a17cf7;
+  }
+  
+  .custom-button-color {
+    background-color: white;
+    color: #a17cf7;
+    border: 2px solid #a17cf7;
+    margin: 20px;
+    min-width: 150px; /* Establece un ancho mínimo para los botones */
+    text-align: center;
+  }
+  
+  .custom-button-color:hover {
+    background-color: #a17cf7;
+    color: white;
+    border: 2px solid white;
+  }

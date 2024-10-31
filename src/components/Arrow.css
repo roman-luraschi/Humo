@@ -1,0 +1,21 @@
+.slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+}
+
+.slick-prev {
+    left: -40px; /* Ajusta esta distancia según sea necesario */
+}
+
+.slick-next {
+    right: -40px; /* Ajusta esta distancia según sea necesario */
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    color: black;
+}
